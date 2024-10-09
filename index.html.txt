@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization Newsletters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Newsletters</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#archive">Newsletter Archive</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="latest-newsletter">
+        <h2>Latest Newsletter</h2>
+        <article>
+            <h3>October 2024 Edition</h3>
+            <p>Welcome to the latest edition of our newsletter! Click below to read more.</p>
+            <a href="newsletter-oct2024.html">Read More</a>
+        </article>
+    </section>
+
+    <section id="archive">
+        <h2>Newsletter Archive</h2>
+        <ul>
+            <li><a href="newsletter-sep2024.html">September 2024</a></li>
+            <li><a href="newsletter-aug2024.html">August 2024</a></li>
+            <li><a href="newsletter-jul2024.html">July 2024</a></li>
+            <!-- Add more newsletters as needed -->
+        </ul>
+    </section>
+
+    <section id="subscribe">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Organization Name. All rights reserved.</p>
+    </footer>
+
+<!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
